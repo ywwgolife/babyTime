@@ -1,0 +1,40 @@
+//
+//  babyTime_header.pch
+//  宝贝时光
+//
+//  Created by yww on 2019/9/8.
+//  Copyright © 2019 yww.com. All rights reserved.
+//
+
+#ifndef babyTime_header_pch
+#define babyTime_header_pch
+#import <Foundation/Foundation.h>
+//pod
+#import "AFNetworking.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+#import <IDMPhotoBrowser/IDMPhotoBrowser.h>
+#import "MBProgressHUD+Add.h"
+
+
+#import "BTGlobalTool.h"
+#import "BTModel.h"
+//激光推送
+static NSString *accessKey = @"13de859aa9db6f4dc85ba2c6e18541c9fa1cd29e2dfe84082ab26687e3be4d63";
+#define KdeviceWidth  [[UIScreen mainScreen] bounds].size.width //屏幕宽度
+#define KdeviceHeight [[UIScreen mainScreen] bounds].size.height //屏幕高度
+#define StatusHeight  [[UIApplication sharedApplication] statusBarFrame].size.height //状态栏高度
+#define NavigationHeight self.navigationController.navigationBar.frame.size.height //导航栏高度
+#define FONT(S) [UIFont systemFontOfSize:S]  //字体
+#endif /* babyTime_header_pch */
+
+
+#ifdef DEBUG
+
+#define NSLog(s, ... ) NSLog( @"[%@ in line %d] => %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define NSLog(s, ... )
+
+#endif

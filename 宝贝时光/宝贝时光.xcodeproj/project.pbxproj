@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829B821F2325F86900094242 /* BTGlobalTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 829B821E2325F86900094242 /* BTGlobalTool.m */; };
+		829B8226232633C300094242 /* BTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 829B8225232633C300094242 /* BTModel.m */; };
+		829B822A2326481000094242 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 829B82282326481000094242 /* MBProgressHUD+Add.m */; };
+		82FFC28623249959001710D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FFC28423249959001710D1 /* Main.storyboard */; };
+		82FFC2882324995A001710D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FFC2872324995A001710D1 /* Assets.xcassets */; };
+		82FFC28B2324995A001710D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FFC2892324995A001710D1 /* LaunchScreen.storyboard */; };
+		82FFC28E2324995A001710D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC28D2324995A001710D1 /* main.m */; };
+		82FFC2982324995B001710D1 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC2972324995B001710D1 /* ____Tests.m */; };
+		82FFC2A32324995B001710D1 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC2A22324995B001710D1 /* ____UITests.m */; };
+		82FFC2BA23249A85001710D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC2B523249A85001710D1 /* AppDelegate.m */; };
+		82FFC2CD23249CAA001710D1 /* BTBasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC2CC23249CAA001710D1 /* BTBasicTableViewController.m */; };
+		82FFC2D023249CF9001710D1 /* BTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FFC2CF23249CF9001710D1 /* BTHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82FFC2942324995B001710D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FFC27323249959001710D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FFC27A23249959001710D1;
+			remoteInfo = "宝贝时光";
+		};
+		82FFC29F2324995B001710D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FFC27323249959001710D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82FFC27A23249959001710D1;
+			remoteInfo = "宝贝时光";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C4D12D6FFFC1CA4AFA172E2 /* Pods-宝贝时光.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-宝贝时光.debug.xcconfig"; path = "Pods/Target Support Files/Pods-宝贝时光/Pods-宝贝时光.debug.xcconfig"; sourceTree = "<group>"; };
+		829B821D2325F86900094242 /* BTGlobalTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTGlobalTool.h; sourceTree = "<group>"; };
+		829B821E2325F86900094242 /* BTGlobalTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTGlobalTool.m; sourceTree = "<group>"; };
+		829B8224232633C300094242 /* BTModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTModel.h; sourceTree = "<group>"; };
+		829B8225232633C300094242 /* BTModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTModel.m; sourceTree = "<group>"; };
+		829B82282326481000094242 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		829B82292326481000094242 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		82FFC27B23249959001710D1 /* 宝贝时光.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宝贝时光.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FFC28523249959001710D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82FFC2872324995A001710D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82FFC28A2324995A001710D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FFC28C2324995A001710D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FFC28D2324995A001710D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82FFC2932324995B001710D1 /* 宝贝时光Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "宝贝时光Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FFC2972324995B001710D1 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		82FFC2992324995B001710D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FFC29E2324995B001710D1 /* 宝贝时光UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "宝贝时光UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FFC2A22324995B001710D1 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		82FFC2A42324995B001710D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FFC2B123249A85001710D1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82FFC2B523249A85001710D1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82FFC2CB23249CAA001710D1 /* BTBasicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTBasicTableViewController.h; sourceTree = "<group>"; };
+		82FFC2CC23249CAA001710D1 /* BTBasicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTBasicTableViewController.m; sourceTree = "<group>"; };
+		82FFC2CE23249CF9001710D1 /* BTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTHomeViewController.h; sourceTree = "<group>"; };
+		82FFC2CF23249CF9001710D1 /* BTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTHomeViewController.m; sourceTree = "<group>"; };
+		82FFC2D123249E98001710D1 /* babyTime_header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = babyTime_header.pch; sourceTree = "<group>"; };
+		BD9F4243BC1AE872492A4D07 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5695482A9AD17D680C41A2A /* Pods-宝贝时光.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-宝贝时光.release.xcconfig"; path = "Pods/Target Support Files/Pods-宝贝时光/Pods-宝贝时光.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FFC27823249959001710D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC2902324995B001710D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC29B2324995B001710D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829B82272326481000094242 /* extention */ = {
+			isa = PBXGroup;
+			children = (
+				829B82292326481000094242 /* MBProgressHUD+Add.h */,
+				829B82282326481000094242 /* MBProgressHUD+Add.m */,
+			);
+			path = extention;
+			sourceTree = "<group>";
+		};
+		82FFC27223249959001710D1 = {
+			isa = PBXGroup;
+			children = (
+				82FFC27D23249959001710D1 /* 宝贝时光 */,
+				82FFC2962324995B001710D1 /* 宝贝时光Tests */,
+				82FFC2A12324995B001710D1 /* 宝贝时光UITests */,
+				82FFC27C23249959001710D1 /* Products */,
+				D80EE1C8454555A4BDB73F65 /* Pods */,
+				D15E4BE5184636173492B8ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82FFC27C23249959001710D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC27B23249959001710D1 /* 宝贝时光.app */,
+				82FFC2932324995B001710D1 /* 宝贝时光Tests.xctest */,
+				82FFC29E2324995B001710D1 /* 宝贝时光UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FFC27D23249959001710D1 /* 宝贝时光 */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2B023249A85001710D1 /* Class */,
+				82FFC2BB23249B33001710D1 /* Other */,
+				82FFC2B823249A85001710D1 /* Lib */,
+				82FFC28423249959001710D1 /* Main.storyboard */,
+				82FFC2872324995A001710D1 /* Assets.xcassets */,
+				82FFC2892324995A001710D1 /* LaunchScreen.storyboard */,
+				82FFC2D123249E98001710D1 /* babyTime_header.pch */,
+				82FFC28C2324995A001710D1 /* Info.plist */,
+				82FFC28D2324995A001710D1 /* main.m */,
+			);
+			path = "宝贝时光";
+			sourceTree = "<group>";
+		};
+		82FFC2962324995B001710D1 /* 宝贝时光Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2972324995B001710D1 /* ____Tests.m */,
+				82FFC2992324995B001710D1 /* Info.plist */,
+			);
+			path = "宝贝时光Tests";
+			sourceTree = "<group>";
+		};
+		82FFC2A12324995B001710D1 /* 宝贝时光UITests */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2A22324995B001710D1 /* ____UITests.m */,
+				82FFC2A42324995B001710D1 /* Info.plist */,
+			);
+			path = "宝贝时光UITests";
+			sourceTree = "<group>";
+		};
+		82FFC2B023249A85001710D1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2B123249A85001710D1 /* AppDelegate.h */,
+				82FFC2B523249A85001710D1 /* AppDelegate.m */,
+				82FFC2BE23249BD5001710D1 /* Basic */,
+				82FFC2BF23249C08001710D1 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		82FFC2B823249A85001710D1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				829B82272326481000094242 /* extention */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		82FFC2BB23249B33001710D1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2BD23249B33001710D1 /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		82FFC2BD23249B33001710D1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				829B821D2325F86900094242 /* BTGlobalTool.h */,
+				829B821E2325F86900094242 /* BTGlobalTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		82FFC2BE23249BD5001710D1 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2CB23249CAA001710D1 /* BTBasicTableViewController.h */,
+				82FFC2CC23249CAA001710D1 /* BTBasicTableViewController.m */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		82FFC2BF23249C08001710D1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				82FFC2CE23249CF9001710D1 /* BTHomeViewController.h */,
+				82FFC2CF23249CF9001710D1 /* BTHomeViewController.m */,
+				82FFC2C423249C28001710D1 /* View */,
+				82FFC2C323249C28001710D1 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		82FFC2C323249C28001710D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				829B8224232633C300094242 /* BTModel.h */,
+				829B8225232633C300094242 /* BTModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82FFC2C423249C28001710D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D15E4BE5184636173492B8ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9F4243BC1AE872492A4D07 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D80EE1C8454555A4BDB73F65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C4D12D6FFFC1CA4AFA172E2 /* Pods-宝贝时光.debug.xcconfig */,
+				C5695482A9AD17D680C41A2A /* Pods-宝贝时光.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FFC27A23249959001710D1 /* 宝贝时光 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FFC2A72324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光" */;
+			buildPhases = (
+				4CA1DBFF49D65163B7743A10 /* [CP] Check Pods Manifest.lock */,
+				82FFC27723249959001710D1 /* Sources */,
+				82FFC27823249959001710D1 /* Frameworks */,
+				82FFC27923249959001710D1 /* Resources */,
+				5CA64D788ABB511135FFC713 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "宝贝时光";
+			productName = "宝贝时光";
+			productReference = 82FFC27B23249959001710D1 /* 宝贝时光.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82FFC2922324995B001710D1 /* 宝贝时光Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FFC2AA2324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光Tests" */;
+			buildPhases = (
+				82FFC28F2324995B001710D1 /* Sources */,
+				82FFC2902324995B001710D1 /* Frameworks */,
+				82FFC2912324995B001710D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FFC2952324995B001710D1 /* PBXTargetDependency */,
+			);
+			name = "宝贝时光Tests";
+			productName = "宝贝时光Tests";
+			productReference = 82FFC2932324995B001710D1 /* 宝贝时光Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82FFC29D2324995B001710D1 /* 宝贝时光UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FFC2AD2324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光UITests" */;
+			buildPhases = (
+				82FFC29A2324995B001710D1 /* Sources */,
+				82FFC29B2324995B001710D1 /* Frameworks */,
+				82FFC29C2324995B001710D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82FFC2A02324995B001710D1 /* PBXTargetDependency */,
+			);
+			name = "宝贝时光UITests";
+			productName = "宝贝时光UITests";
+			productReference = 82FFC29E2324995B001710D1 /* 宝贝时光UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FFC27323249959001710D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yww.com;
+				TargetAttributes = {
+					82FFC27A23249959001710D1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					82FFC2922324995B001710D1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 82FFC27A23249959001710D1;
+					};
+					82FFC29D2324995B001710D1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 82FFC27A23249959001710D1;
+					};
+				};
+			};
+			buildConfigurationList = 82FFC27623249959001710D1 /* Build configuration list for PBXProject "宝贝时光" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FFC27223249959001710D1;
+			productRefGroup = 82FFC27C23249959001710D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FFC27A23249959001710D1 /* 宝贝时光 */,
+				82FFC2922324995B001710D1 /* 宝贝时光Tests */,
+				82FFC29D2324995B001710D1 /* 宝贝时光UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82FFC27923249959001710D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FFC28B2324995A001710D1 /* LaunchScreen.storyboard in Resources */,
+				82FFC2882324995A001710D1 /* Assets.xcassets in Resources */,
+				82FFC28623249959001710D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC2912324995B001710D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC29C2324995B001710D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CA1DBFF49D65163B7743A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-宝贝时光-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA64D788ABB511135FFC713 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-宝贝时光/Pods-宝贝时光-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-宝贝时光/Pods-宝贝时光-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FFC27723249959001710D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FFC2CD23249CAA001710D1 /* BTBasicTableViewController.m in Sources */,
+				82FFC2D023249CF9001710D1 /* BTHomeViewController.m in Sources */,
+				829B8226232633C300094242 /* BTModel.m in Sources */,
+				829B822A2326481000094242 /* MBProgressHUD+Add.m in Sources */,
+				82FFC28E2324995A001710D1 /* main.m in Sources */,
+				829B821F2325F86900094242 /* BTGlobalTool.m in Sources */,
+				82FFC2BA23249A85001710D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC28F2324995B001710D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FFC2982324995B001710D1 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FFC29A2324995B001710D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FFC2A32324995B001710D1 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82FFC2952324995B001710D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FFC27A23249959001710D1 /* 宝贝时光 */;
+			targetProxy = 82FFC2942324995B001710D1 /* PBXContainerItemProxy */;
+		};
+		82FFC2A02324995B001710D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82FFC27A23249959001710D1 /* 宝贝时光 */;
+			targetProxy = 82FFC29F2324995B001710D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82FFC28423249959001710D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FFC28523249959001710D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82FFC2892324995A001710D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FFC28A2324995A001710D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82FFC2A52324995B001710D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82FFC2A62324995B001710D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FFC2A82324995B001710D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C4D12D6FFFC1CA4AFA172E2 /* Pods-宝贝时光.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 966MC69B75;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/宝贝时光/babyTime_header.pch";
+				INFOPLIST_FILE = "宝贝时光/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = babytime.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82FFC2A92324995B001710D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5695482A9AD17D680C41A2A /* Pods-宝贝时光.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 966MC69B75;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/宝贝时光/babyTime_header.pch";
+				INFOPLIST_FILE = "宝贝时光/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = babytime.cn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82FFC2AB2324995B001710D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57D3K24QBX;
+				INFOPLIST_FILE = "宝贝时光Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhijia.carhostplatform.lease.cn.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/宝贝时光.app/宝贝时光";
+			};
+			name = Debug;
+		};
+		82FFC2AC2324995B001710D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57D3K24QBX;
+				INFOPLIST_FILE = "宝贝时光Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhijia.carhostplatform.lease.cn.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/宝贝时光.app/宝贝时光";
+			};
+			name = Release;
+		};
+		82FFC2AE2324995B001710D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57D3K24QBX;
+				INFOPLIST_FILE = "宝贝时光UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhijia.carhostplatform.lease.cn.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "宝贝时光";
+			};
+			name = Debug;
+		};
+		82FFC2AF2324995B001710D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57D3K24QBX;
+				INFOPLIST_FILE = "宝贝时光UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zhijia.carhostplatform.lease.cn.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "宝贝时光";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FFC27623249959001710D1 /* Build configuration list for PBXProject "宝贝时光" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FFC2A52324995B001710D1 /* Debug */,
+				82FFC2A62324995B001710D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FFC2A72324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FFC2A82324995B001710D1 /* Debug */,
+				82FFC2A92324995B001710D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FFC2AA2324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FFC2AB2324995B001710D1 /* Debug */,
+				82FFC2AC2324995B001710D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FFC2AD2324995B001710D1 /* Build configuration list for PBXNativeTarget "宝贝时光UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FFC2AE2324995B001710D1 /* Debug */,
+				82FFC2AF2324995B001710D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FFC27323249959001710D1 /* Project object */;
+}
